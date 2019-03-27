@@ -65,6 +65,7 @@ server:
     context-path: /
     
 spring:
+  profiles: consumer-8020
   application:   #定义服务名称,如果是多个相同的服务,则名称必须相同
     name: consumer-user 
 eureka:
